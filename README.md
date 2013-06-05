@@ -3,8 +3,8 @@ Für meine Homepage benötige ich eine Tagwolke mit den Namen der von mir beherr
 
 ## Todo
 - Geforkte D3 Cloud-Bibliothek so umbauen, dass Platzierung der Tags (in `size()`) und Spiralrichtung (`dt` in `place()`) nicht mehr zufällig ist.
+- bower.js so anpassen, dass die geforkte Version benutzt wird.
 - Datenmodell f. Tagwolken-Worte. Mögliche Gene sind:
-
    - Größe der Tags
    - Ausrichtung (senkrecht/waagerecht)
    - Skalierungsfaktor (wie stark die Grössenunterschiede zwischen Wichtigkeits-Ebenen variieren). Kann log oder sqrt sein, außerdem dann noch ein numerischer Faktor, mit dem multipliziert wird.
@@ -12,7 +12,7 @@ Für meine Homepage benötige ich eine Tagwolke mit den Namen der von mir beherr
 - Auswahl der schönsten Wolken (ggf. mit Zoom, damit mehrere Wolken am Bildschirm angzeigt werden können)
 - Zwischenspeichern von Parametern
 - Speichern des SVG
-- Ggf. Direktanpassung einzelner Gene statt zufälliger Mutation (onlick-Handler f. )
+- Ggf. Direktanpassung einzelner Gene statt zufälliger Mutation (onlick-Handler f. Tags zeigt Einstellmöglichkeiten)
 
 ## Ressourcen:
 - [Tag Cloud Library][1]
